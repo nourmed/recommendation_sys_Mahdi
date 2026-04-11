@@ -1,0 +1,42 @@
+{
+  "source_type": "commercial",
+  "created_at": "2026-04-10T11:22:45.733456",
+  "total_items": 5,
+  "items": [
+    {
+      "index": 0,
+      "title": "ProCut Series",
+      "url": "https://www.johnnyseeds.com/flowers/sunflowers/procut-series/",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T11:22:22.325009"
+    },
+    {
+      "index": 1,
+      "title": "Sweet Potato Slips",
+      "url": "https://www.johnnyseeds.com/vegetables/sweet-potatoes/",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T11:22:24.089106"
+    },
+    {
+      "index": 2,
+      "title": "OMRI (Organic Materials Review Institute) Listed",
+      "url": "https://www.johnnyseeds.com/featured/omri-organic-materials-review-institute-listed/",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T11:22:27.113795"
+    },
+    {
+      "index": 3,
+      "title": "New for 2026!",
+      "url": "https://www.johnnyseeds.com/featured/new-for-2026/?ftrdmmftrdlst",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T11:22:28.711079"
+    },
+    {
+      "index": 4,
+      "title": "Burpee Seeds Grow®",
+      "url": "https://www.burpee.com",
+      "source_name": "Burpee",
+      "collected_at": "2026-04-10T11:22:30.459367"
+    }
+  ]
+}

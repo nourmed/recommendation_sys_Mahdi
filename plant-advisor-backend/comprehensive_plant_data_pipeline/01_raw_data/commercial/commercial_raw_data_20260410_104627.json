@@ -1,0 +1,48 @@
+[
+  {
+    "title": "Seed Quantity Calculator | Johnny's Selected Seeds",
+    "text": "Ask a Grower Calculators & Planning Tools Cooperative Extension Disease Resistance Codes Farm Seed & Cover Crops Library Flower Library Fruit Library Glossary of Terms Farm Visits & Grower Profiles Hardiness Zones Herb Library Key Growing Information Methods, Tools & Supplies Library Organic Growing Vegetable Library Videos Webinars",
+    "url": "https://www.johnnyseeds.com/seed-quantity-calculator/",
+    "source_name": "Johnny's Seeds",
+    "source_type": "commercial",
+    "extraction_method": "default_selectors",
+    "collected_at": "2026-04-10T10:46:06.618805"
+  },
+  {
+    "title": "Johnny's Guarantee",
+    "text": "Contact Us Directions Satisfaction Guarantee Returns & Exchanges Shipping Pay My Account Customer Support FAQs Sales Tax FAQs Accessibility Privacy Policy Terms & Conditions Unsubscribe from Email Your Privacy Rights California Notice at Collection",
+    "url": "https://www.johnnyseeds.com/customer-support/guarantee.html",
+    "source_name": "Johnny's Seeds",
+    "source_type": "commercial",
+    "extraction_method": "default_selectors",
+    "collected_at": "2026-04-10T10:46:08.061233"
+  },
+  {
+    "title": "Endive Seeds",
+    "text": "Belgian Endive (Witloof) Belgian Endive Seeds - Organic Varieties | Johnny's Selected Seeds Endive selected\n\t\t\t\t\t\t\t\tEndive Seeds - Organic Varieties | Johnny's Selected Seeds Escarole Escarole Seeds - Organic Varieties | Johnny's Selected Seeds Italian Dandelion Italian Dandelion Seeds - Organic Varieties | Johnny's Selected Seeds Radicchio Radicchio Seeds - Organic Varieties | Johnny's Selected Seeds",
+    "url": "https://www.johnnyseeds.com/vegetables/chicory/endive/",
+    "source_name": "Johnny's Seeds",
+    "source_type": "commercial",
+    "extraction_method": "default_selectors",
+    "collected_at": "2026-04-10T10:46:09.600561"
+  },
+  {
+    "title": "Canary Melon Seeds",
+    "text": "Asian Melons Asian Melon Seeds | Johnny's Selected Seeds Canary Melons selected\n\t\t\t\t\t\t\t\tCanary Melon Seeds (Yellow Melon) | Johnny's Selected Seeds Cantaloupe (Muskmelon) Cantaloupe Seeds (Muskmelon Seeds) | Johnny's Selected Seeds Crenshaw Melons Crenshaw Melon Seeds | Johnny's Selected Seeds French Melons (Charentais) French Melon Seeds (Charentais Melon Seeds) | Johnny's Selected Seeds Galia Melons (Tropical) Galia Melon Seeds (Tropical Melon Seeds) | Johnny's Selected Seeds Honeydew Melons Honeydew Melon Seeds | Johnny's Selected Seeds Piel de Sapo Melons Piel De Sapo Melon Seeds | Johnny's Selected Seeds",
+    "url": "https://www.johnnyseeds.com/vegetables/melons/canary-melons/",
+    "source_name": "Johnny's Seeds",
+    "source_type": "commercial",
+    "extraction_method": "default_selectors",
+    "collected_at": "2026-04-10T10:46:11.068833"
+  },
+  {
+    "title": "Burpee Seeds Grow®",
+    "text": "Container-Friendly Vegetables Pollinator Favorites Direct Sow Seeds Flowers for Cutting Burpee Seeds Grow ® Top-quality, non-GMO seeds and plants — 100% satisfaction guaranteed. Tomatoes Herbs Mix & Match Plants Sunflowers New for 2026 Flowers Direct Sow Vegetables Cages & Supports The Burpee Garden Guide How-to's, tips & more from our team of expert Horticulturalists. When to Start Planting Here are a few signs to look for that indicate when to start planting your garden. Read the Guide Plan Ahead for Homegrown Veggies Start your first veggie garden with confidence... easy crops, simple steps, and a harvest you'll love! Read the Guide Flower Gardening for Beginners Bring color, joy, and life to your space. Start a simple flower garden that blooms all season long, wherever you live. Read the Article Explore the Garden Guide",
+    "url": "https://www.burpee.com",
+    "source_name": "Burpee",
+    "source_type": "commercial",
+    "extraction_method": "default_selectors",
+    "extraction_warnings": [],
+    "collected_at": "2026-04-10T10:46:13.327613"
+  }
+]

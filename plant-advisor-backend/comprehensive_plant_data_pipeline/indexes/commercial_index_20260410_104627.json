@@ -1,0 +1,42 @@
+{
+  "source_type": "commercial",
+  "created_at": "2026-04-10T10:46:27.499012",
+  "total_items": 5,
+  "items": [
+    {
+      "index": 0,
+      "title": "Seed Quantity Calculator | Johnny's Selected Seeds",
+      "url": "https://www.johnnyseeds.com/seed-quantity-calculator/",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T10:46:06.618805"
+    },
+    {
+      "index": 1,
+      "title": "Johnny's Guarantee",
+      "url": "https://www.johnnyseeds.com/customer-support/guarantee.html",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T10:46:08.061233"
+    },
+    {
+      "index": 2,
+      "title": "Endive Seeds",
+      "url": "https://www.johnnyseeds.com/vegetables/chicory/endive/",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T10:46:09.600561"
+    },
+    {
+      "index": 3,
+      "title": "Canary Melon Seeds",
+      "url": "https://www.johnnyseeds.com/vegetables/melons/canary-melons/",
+      "source_name": "Johnny's Seeds",
+      "collected_at": "2026-04-10T10:46:11.068833"
+    },
+    {
+      "index": 4,
+      "title": "Burpee Seeds Grow®",
+      "url": "https://www.burpee.com",
+      "source_name": "Burpee",
+      "collected_at": "2026-04-10T10:46:13.327613"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+# This file automatically tracks all URLs and sources consulted by the LLM
+# when searching the internet for new plant data during a fallback search.
+# 
+# New sources will be appended below automatically.
+========================================================================
+--- Sources for Rice (2026-04-03 20:10) ---
+https://www.knowledgebank.irri.org/training/fact-sheets/crop-establishment/item/growing-rice-in-flooded-soils
+https://www.agriculture.com/crops/rice/how-to-grow-rice
+
+--- Sources for Rose (2026-04-03 20:21) ---
+https://www.rhs.org.uk/plants/roses/growing-guide
+https://www.almanac.com/plant/roses
+
+--- Sources for Bean (2026-04-03 20:44) ---
+https://www.gardeningknowhow.com/vegetable/beans/growing-beans.htm
+https://extension.umn.edu/vegetables/growing-beans
+
+--- Sources for Basil (2026-04-05 18:49) ---
+https://example.com/plant-info
+https://example.com/care-guide
+
+--- Sources for Pepper (2026-04-05 18:51) ---
+https://example.com/plant-info
+https://example.com/care-guide
+
+--- Sources for Apple (2026-04-10 11:50) ---
+https://www.rhs.org.uk/advice/grow-your-own/fruit/apples
+https://www.almanac.com/plant/apples
+
+--- Sources for Apple (2026-04-10 11:53) ---
+https://www.rhs.org.uk/advice/grow-your-own/fruit/apples
+https://www.almanac.com/plant/apples
+

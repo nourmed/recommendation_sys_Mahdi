@@ -1,0 +1,14 @@
+{
+  "status": "completed",
+  "timestamp": "2026-04-10T11:50:47.884889",
+  "total_items_processed": 1142,
+  "total_plant_vectors": 3313,
+  "vector_dimension": 768,
+  "embeddings_model": "all-mpnet-base-v2",
+  "processing_time": 1050.878651380539,
+  "qdrant_integration": true,
+  "qdrant_collection_name": "plant_data_collection",
+  "qdrant_host": "185.215.167.14:6333",
+  "search_index_created": true,
+  "vector_db_folder_saved": true
+}

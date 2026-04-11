@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-dotenv
+openai
+qdrant-client
+aiofiles
+requests
+reportlab
+packaging
+pip install sentence-transformers

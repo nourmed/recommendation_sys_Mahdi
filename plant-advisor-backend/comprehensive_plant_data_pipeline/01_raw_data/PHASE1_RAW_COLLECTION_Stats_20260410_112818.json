@@ -1,0 +1,26 @@
+{
+  "status": "completed",
+  "resilient_scraping_enabled": true,
+  "raw_data_summary": {
+    "total_items": 1282,
+    "platform_breakdown": {
+      "youtube": 542,
+      "government_extension": 24,
+      "commercial": 5,
+      "websites": 121,
+      "wikipedia": 60,
+      "reddit": 530
+    }
+  },
+  "extraction_method_statistics": {
+    "api": 542,
+    "default_selectors": 104,
+    "domain_specific": 46,
+    "wikipedia_api": 60,
+    "reddit_api": 530
+  },
+  "warning_statistics": {},
+  "timestamp": "2026-04-10T11:28:18.455533",
+  "processing_time": 1407.958304643631,
+  "note": "Raw data collection complete - no processing applied - resilient scraping enabled"
+}

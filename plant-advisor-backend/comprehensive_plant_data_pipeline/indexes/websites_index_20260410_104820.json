@@ -1,0 +1,854 @@
+{
+  "source_type": "websites",
+  "created_at": "2026-04-10T10:48:20.445228",
+  "total_items": 121,
+  "items": [
+    {
+      "index": 0,
+      "title": "Ornamental Gardens",
+      "url": "https://www.gardeningknowhow.com/ornamental",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:30.335037"
+    },
+    {
+      "index": 1,
+      "title": "Flowers",
+      "url": "https://www.gardeningknowhow.com/ornamental/flowers",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:31.540016"
+    },
+    {
+      "index": 2,
+      "title": "Foliage",
+      "url": "https://www.gardeningknowhow.com/ornamental/foliage",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:32.744787"
+    },
+    {
+      "index": 3,
+      "title": "",
+      "url": "https://www.gardeningknowhow.com/ornamental/trees",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:33.937783"
+    },
+    {
+      "index": 4,
+      "title": "Shrubs",
+      "url": "https://www.gardeningknowhow.com/ornamental/shrubs",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:35.121720"
+    },
+    {
+      "index": 5,
+      "title": "",
+      "url": "https://www.gardeningknowhow.com/ornamental/bulbs",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:36.327087"
+    },
+    {
+      "index": 6,
+      "title": "Cacti & Succulents",
+      "url": "https://www.gardeningknowhow.com/ornamental/cacti-succulents",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:37.515279"
+    },
+    {
+      "index": 7,
+      "title": "Ground Cover",
+      "url": "https://www.gardeningknowhow.com/ornamental/groundcover",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:38.718325"
+    },
+    {
+      "index": 8,
+      "title": "Fungus & Lichen",
+      "url": "https://www.gardeningknowhow.com/ornamental/fungus-lichen",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:39.910574"
+    },
+    {
+      "index": 9,
+      "title": "",
+      "url": "https://www.gardeningknowhow.com/ornamental/vines",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:41.085030"
+    },
+    {
+      "index": 10,
+      "title": "Water Plants",
+      "url": "https://www.gardeningknowhow.com/ornamental/water-plants",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:42.290567"
+    },
+    {
+      "index": 11,
+      "title": "Edible Gardens",
+      "url": "https://www.gardeningknowhow.com/edible",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:43.501195"
+    },
+    {
+      "index": 12,
+      "title": "Vegetables",
+      "url": "https://www.gardeningknowhow.com/edible/vegetables",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:44.851613"
+    },
+    {
+      "index": 13,
+      "title": "Fruits",
+      "url": "https://www.gardeningknowhow.com/edible/fruits",
+      "source_name": "gardeningknowhow.com",
+      "collected_at": "2026-04-10T10:46:46.052910"
+    },
+    {
+      "index": 14,
+      "title": "Fine Gardening",
+      "url": "https://finegardening.com/",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:46:58.021555"
+    },
+    {
+      "index": 15,
+      "title": "Fine Gardening",
+      "url": "https://finegardening.com/",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:46:58.543754"
+    },
+    {
+      "index": 16,
+      "title": "How To - Fine Gardening",
+      "url": "https://finegardening.com/how-to",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:00.128728"
+    },
+    {
+      "index": 17,
+      "title": "Garden Design",
+      "url": "https://finegardening.com/design",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:01.834905"
+    },
+    {
+      "index": 18,
+      "title": "Fine Gardening",
+      "url": "https://finegardening.com/my-region",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:03.594409"
+    },
+    {
+      "index": 19,
+      "title": "Videos",
+      "url": "https://finegardening.com/videos",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:05.465334"
+    },
+    {
+      "index": 20,
+      "title": "Magazine - Fine Gardening",
+      "url": "https://finegardening.com/magazine",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:07.071415"
+    },
+    {
+      "index": 21,
+      "title": "It is Time to Celebrate Spring!",
+      "url": "https://finegardening.com/garden-photo-of-the-day",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:08.668289"
+    },
+    {
+      "index": 22,
+      "title": "Let’s Argue About Plants",
+      "url": "https://finegardening.com/podcast",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:10.490239"
+    },
+    {
+      "index": 23,
+      "title": "Fine Gardening",
+      "url": "https://finegardening.com/all-access",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:12.225932"
+    },
+    {
+      "index": 24,
+      "title": "Short Classes to Increase Your",
+      "url": "https://finegardening.com/courses",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:15.354753"
+    },
+    {
+      "index": 25,
+      "title": "Fine Gardening",
+      "url": "https://finegardening.com/discussion-forum",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:16.917093"
+    },
+    {
+      "index": 26,
+      "title": "Fine Gardening",
+      "url": "https://finegardening.com/project-guides",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:18.628776"
+    },
+    {
+      "index": 27,
+      "title": "Fine Gardening",
+      "url": "https://www.finegardening.com",
+      "source_name": "finegardening.com",
+      "collected_at": "2026-04-10T10:47:22.506058"
+    },
+    {
+      "index": 28,
+      "title": "Inside Carol Klein's private garden",
+      "url": "https://gardenersworld.com/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:08.610664"
+    },
+    {
+      "index": 29,
+      "title": "Inside Carol Klein's private garden",
+      "url": "https://www.gardenersworld.com",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:08.790017"
+    },
+    {
+      "index": 30,
+      "title": "Become a subscriber today",
+      "url": "https://www.gardenersworld.com/subscribe/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:10.265331"
+    },
+    {
+      "index": 31,
+      "title": "Sign up to the Gardeners' World newsletters",
+      "url": "https://www.gardenersworld.com/newsletters/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:11.488771"
+    },
+    {
+      "index": 32,
+      "title": "May issue 2026 with 2-for-1 Gardens card and guide",
+      "url": "https://www.gardenersworld.com/2-for-1-gardens/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:12.684783"
+    },
+    {
+      "index": 33,
+      "title": "BBC Gardeners' World events 2026​",
+      "url": "https://www.bbcgardenersworldlive.com/events/?src=gwcom-eyebrowlink-eventspagegw25",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:16.285123"
+    },
+    {
+      "index": 34,
+      "title": "Make a Metre Matter",
+      "url": "http://gardenersworld.com/make-a-metre-matter/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:18.386911"
+    },
+    {
+      "index": 35,
+      "title": "Your monthly gardening checklists",
+      "url": "https://www.gardenersworld.com/what-to-do-now-april/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:19.921667"
+    },
+    {
+      "index": 36,
+      "title": "Choose plants",
+      "url": "https://www.gardenersworld.com/plants/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:21.277693"
+    },
+    {
+      "index": 37,
+      "title": "Leptinellasqualida'Platts Black'",
+      "url": "https://www.gardenersworld.com/search?q=plants&tab=plants",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:22.615169"
+    },
+    {
+      "index": 38,
+      "title": "Native trees and shrubs to grow",
+      "url": "https://www.gardenersworld.com/plants/native-trees-and-shrubs-to-grow/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:23.909051"
+    },
+    {
+      "index": 39,
+      "title": "Perennial plants",
+      "url": "https://www.gardenersworld.com/plant-profiles/perennial-plants/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:25.092916"
+    },
+    {
+      "index": 40,
+      "title": "Low-maintenance veg and fruit to grow",
+      "url": "https://www.gardenersworld.com/plants/low-maintenance-veg-and-fruit/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:26.616446"
+    },
+    {
+      "index": 41,
+      "title": "Climbers",
+      "url": "https://www.gardenersworld.com/plant-profiles/climbers/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:27.918428"
+    },
+    {
+      "index": 42,
+      "title": "Tulipa'Uncle Tom'",
+      "url": "https://www.gardenersworld.com/plant-profiles/bulbs/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:29.321648"
+    },
+    {
+      "index": 43,
+      "title": "Seed sowing",
+      "url": "https://www.gardenersworld.com/grow-guides/seed-sowing/",
+      "source_name": "gardenersworld.com",
+      "collected_at": "2026-04-10T10:47:30.700036"
+    },
+    {
+      "index": 44,
+      "title": "",
+      "url": "https://almanac.com/",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:29.450404"
+    },
+    {
+      "index": 45,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:29.840563"
+    },
+    {
+      "index": 46,
+      "title": "Free Garden Layouts & Plans Library",
+      "url": "https://www.almanac.com/free-garden-layouts-plans-library",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:33.720004"
+    },
+    {
+      "index": 47,
+      "title": "Planting by the Moon From The Old Farmer’s Almanac",
+      "url": "https://www.almanac.com/planting-by-the-moon",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:37.904522"
+    },
+    {
+      "index": 48,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:41.568239"
+    },
+    {
+      "index": 49,
+      "title": "Free Garden Layouts & Plans Library",
+      "url": "https://almanac.com/tool/free-garden-layouts-plans-library",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:46.434566"
+    },
+    {
+      "index": 50,
+      "title": "Free Garden Layouts & Plans Library",
+      "url": "https://almanac.com/tool/free-garden-layouts-plans-library",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:48.118145"
+    },
+    {
+      "index": 51,
+      "title": "Free Garden Layouts & Plans Library",
+      "url": "https://almanac.com/tool/free-garden-layouts-plans-library",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:49.710290"
+    },
+    {
+      "index": 52,
+      "title": "I have some pecan trees in my...",
+      "url": "https://almanac.com/fact/i-have-some-pecan-trees-in-my",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:51.075669"
+    },
+    {
+      "index": 53,
+      "title": "",
+      "url": "https://almanac.com/gardening/",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:55.362205"
+    },
+    {
+      "index": 54,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:55.727140"
+    },
+    {
+      "index": 55,
+      "title": "Free Garden Layouts & Plans Library",
+      "url": "https://www.almanac.com/free-garden-layouts-plans-library",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:46:59.621850"
+    },
+    {
+      "index": 56,
+      "title": "Planting by the Moon From The Old Farmer’s Almanac",
+      "url": "https://www.almanac.com/planting-by-the-moon",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:03.784600"
+    },
+    {
+      "index": 57,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:06.739969"
+    },
+    {
+      "index": 58,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:12.721532"
+    },
+    {
+      "index": 59,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:20.290166"
+    },
+    {
+      "index": 60,
+      "title": "Free Garden Layouts & Plans Library",
+      "url": "https://www.almanac.com/free-garden-layouts-plans-library",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:24.271801"
+    },
+    {
+      "index": 61,
+      "title": "Planting by the Moon From The Old Farmer’s Almanac",
+      "url": "https://www.almanac.com/planting-by-the-moon",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:28.582100"
+    },
+    {
+      "index": 62,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:31.822576"
+    },
+    {
+      "index": 63,
+      "title": "",
+      "url": "https://almanac.com/gardening",
+      "source_name": "almanac.com",
+      "collected_at": "2026-04-10T10:47:36.230300"
+    },
+    {
+      "index": 64,
+      "title": "National Gardening Week 2026",
+      "url": "https://rhs.org.uk/get-involved/national-gardening-week/",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:29.010465"
+    },
+    {
+      "index": 65,
+      "title": "Get involved",
+      "url": "https://rhs.org.uk/get-involved/community-gardening",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:30.450845"
+    },
+    {
+      "index": 66,
+      "title": "Get involved",
+      "url": "https://rhs.org.uk/get-involved/community-gardening/outreach",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:32.346517"
+    },
+    {
+      "index": 67,
+      "title": "School gardening",
+      "url": "https://rhs.org.uk/get-involved/schools",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:34.008849"
+    },
+    {
+      "index": 68,
+      "title": "Gardening",
+      "url": "https://rhs.org.uk/gardening",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:37.076823"
+    },
+    {
+      "index": 69,
+      "title": "Trusted gardening know-how at your finger tips",
+      "url": "https://rhs.org.uk/rhsgrow",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:38.368568"
+    },
+    {
+      "index": 70,
+      "title": "Get involved",
+      "url": "https://rhs.org.uk/plants",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:39.640725"
+    },
+    {
+      "index": 71,
+      "title": "Find a plant",
+      "url": "https://rhs.org.uk/plants/search-form",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:40.981163"
+    },
+    {
+      "index": 72,
+      "title": "Get involved",
+      "url": "https://rhs.org.uk/plants/popular",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:42.297460"
+    },
+    {
+      "index": 73,
+      "title": "Houseplants",
+      "url": "https://rhs.org.uk/plants/types/houseplants",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:43.590277"
+    },
+    {
+      "index": 74,
+      "title": "Plant types",
+      "url": "https://rhs.org.uk/plants/types",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:45.076886"
+    },
+    {
+      "index": 75,
+      "title": "RHS Plant Trials and Awards",
+      "url": "https://rhs.org.uk/plants/trials-awards",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:48.037258"
+    },
+    {
+      "index": 76,
+      "title": "RHS Horticulture Hub",
+      "url": "https://rhs.org.uk/plants/horticulture-hub",
+      "source_name": "rhs.org.uk",
+      "collected_at": "2026-04-10T10:47:49.735028"
+    },
+    {
+      "index": 77,
+      "title": "This Hillside Seattle Home Will Make You Fall in Love with Nautical Design",
+      "url": "https://sunset.com/",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:34.481286"
+    },
+    {
+      "index": 78,
+      "title": "Home & Garden",
+      "url": "https://sunset.com/home-garden",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:35.365411"
+    },
+    {
+      "index": 79,
+      "title": "Home Tours",
+      "url": "https://sunset.com/home-garden/home-tours",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:36.535695"
+    },
+    {
+      "index": 80,
+      "title": "Decorating & Design",
+      "url": "https://sunset.com/home-garden/design",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:38.592693"
+    },
+    {
+      "index": 81,
+      "title": "Garden Basics",
+      "url": "https://sunset.com/home-garden/garden-basics",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:40.492273"
+    },
+    {
+      "index": 82,
+      "title": "DIY Projects",
+      "url": "https://sunset.com/home-garden/diy-projects",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:42.340341"
+    },
+    {
+      "index": 83,
+      "title": "Landscaping",
+      "url": "https://sunset.com/home-garden/landscaping",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:44.125600"
+    },
+    {
+      "index": 84,
+      "title": "Flowers & Plants",
+      "url": "https://sunset.com/home-garden/plants",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:45.275418"
+    },
+    {
+      "index": 85,
+      "title": "Outdoor Living",
+      "url": "https://sunset.com/home-garden/outdoor-living",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:47.027827"
+    },
+    {
+      "index": 86,
+      "title": "Edible Gardening",
+      "url": "https://sunset.com/home-garden/edible-gardening",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:49.292396"
+    },
+    {
+      "index": 87,
+      "title": "The Idea Hub",
+      "url": "https://sunset.com/home-garden/idea-houses",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:51.143101"
+    },
+    {
+      "index": 88,
+      "title": "This Hillside Seattle Home Will Make You Fall in Love with Nautical Design",
+      "url": "https://sunset.com/home-garden/home-tours/seattle-nautical-home",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:52.744375"
+    },
+    {
+      "index": 89,
+      "title": "Home Tours",
+      "url": "https://sunset.com/./home-garden/home-tours",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:53.893129"
+    },
+    {
+      "index": 90,
+      "title": "Decorating & Design",
+      "url": "https://sunset.com/./home-garden/design",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:55.115311"
+    },
+    {
+      "index": 91,
+      "title": "This Is Where Designers Shop When They Want to Save Money",
+      "url": "https://sunset.com/home-garden/design/where-designers-shop-to-save-money",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:57.360220"
+    },
+    {
+      "index": 92,
+      "title": "This Dreamy Pacific Northwest Family Home’s Interior Design Was Inspired by a Bouquet of Flowers",
+      "url": "https://sunset.com/home-garden/home-tours/molly-kidd-pacific-northwest-ranch-house",
+      "source_name": "sunset.com",
+      "collected_at": "2026-04-10T10:47:59.125864"
+    },
+    {
+      "index": 93,
+      "title": "Burpee Seeds Grow®",
+      "url": "https://burpee.com/",
+      "source_name": "burpee.com",
+      "collected_at": "2026-04-10T10:47:45.010307"
+    },
+    {
+      "index": 94,
+      "title": "How to Keep Deer From Eating Plants",
+      "url": "https://www.motherearthnews.com/diy/invisible-deer-fence-zm0z19jjzbut/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:14.487107"
+    },
+    {
+      "index": 95,
+      "title": "Modern Landrace Gardening",
+      "url": "https://www.motherearthnews.com/organic-gardening/modern-landrace-gardening-zm0z26amzols/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:17.890239"
+    },
+    {
+      "index": 96,
+      "title": "White Mildew on Plants",
+      "url": "https://www.motherearthnews.com/organic-gardening/herbs/white-mildew-plants/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:19.090426"
+    },
+    {
+      "index": 97,
+      "title": "Are Redbud Tree Flowers Edible?",
+      "url": "https://www.motherearthnews.com/real-food/eat-redbud-flowers-zbcz1503/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:22.431158"
+    },
+    {
+      "index": 98,
+      "title": "Backyard Groceries",
+      "url": "https://www.motherearthnews.com/organic-gardening/backyard-groceries-zm0z26amzols/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:42.968821"
+    },
+    {
+      "index": 99,
+      "title": "Modern Landrace Gardening",
+      "url": "https://www.motherearthnews.com/organic-gardening/modern-landrace-gardening-zm0z26amzols/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:44.208521"
+    },
+    {
+      "index": 100,
+      "title": "White Mildew on Plants",
+      "url": "https://www.motherearthnews.com/organic-gardening/herbs/white-mildew-plants/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:45.617374"
+    },
+    {
+      "index": 101,
+      "title": "Can You Eat Tree Leaves?",
+      "url": "https://www.motherearthnews.com/real-food/can-you-eat-tree-leaves-zm0z26amzols/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:47:46.810347"
+    },
+    {
+      "index": 102,
+      "title": "Build a DIY U-Shaped Raised Garden Bed",
+      "url": "https://www.motherearthnews.com/diy/diy-raised-bed-ze0z1710zmit/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:48:06.452619"
+    },
+    {
+      "index": 103,
+      "title": "DIY Small-Greenhouse Plans for Winter Growing",
+      "url": "https://www.motherearthnews.com/diy/small-greenhouse-plans-zm0z16fmzmar/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:48:09.884925"
+    },
+    {
+      "index": 104,
+      "title": "Multipurpose, Low-Cost DIY Greenhouse Ideas",
+      "url": "https://www.motherearthnews.com/diy/low-cost-multipurpose-diy-greenhouses/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:48:13.294758"
+    },
+    {
+      "index": 105,
+      "title": "Use the Heijunka Calendar Method for Direct Seeding vs. Transplanting",
+      "url": "https://www.motherearthnews.com/organic-gardening/transplanting-heijunka-calendar-ze0z1804zsphe/",
+      "source_name": "motherearthnews.com",
+      "collected_at": "2026-04-10T10:48:16.640239"
+    },
+    {
+      "index": 106,
+      "title": "Bed Preparation Tools",
+      "url": "https://johnnyseeds.com/tools-supplies/bed-preparation-tools/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:47:55.500763"
+    },
+    {
+      "index": 107,
+      "title": "Johnny's Guarantee",
+      "url": "https://johnnyseeds.com/customer-support/guarantee.html",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:47:57.006762"
+    },
+    {
+      "index": 108,
+      "title": "Johnny's Selected Seeds - Superior Seeds & Gardening Tools",
+      "url": "https://www.johnnyseeds.com/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:47:58.460521"
+    },
+    {
+      "index": 109,
+      "title": "Vegetables",
+      "url": "https://www.johnnyseeds.com/vegetables/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:00.065278"
+    },
+    {
+      "index": 110,
+      "title": "Vegetables",
+      "url": "https://johnnyseeds.com/vegetables/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:01.642609"
+    },
+    {
+      "index": 111,
+      "title": "New for 2026 Vegetables",
+      "url": "https://www.johnnyseeds.com/featured/new-for-2026/new-for-2026-vegetables/?vegmmftrdlst",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:03.134856"
+    },
+    {
+      "index": 112,
+      "title": "Vegetables",
+      "url": "https://www.johnnyseeds.com/vegetables/?prefn1=prod_feature_marketing&prefv1=8&vegmmftrdlst",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:04.636059"
+    },
+    {
+      "index": 113,
+      "title": "Vegetables",
+      "url": "https://www.johnnyseeds.com/vegetables/?prefn1=prod_feature_grow_cond&prefv1=9&vegmmftrdlst",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:06.251020"
+    },
+    {
+      "index": 114,
+      "title": "Vegetables",
+      "url": "https://www.johnnyseeds.com/vegetables/?prefn1=prod_feature_marketing&prefv1=28&vegmmftrdlst",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:07.852576"
+    },
+    {
+      "index": 115,
+      "title": "Developed by Johnny's",
+      "url": "https://www.johnnyseeds.com/featured/developed-by-johnnys/?vegmmlst",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:09.586722"
+    },
+    {
+      "index": 116,
+      "title": "Vegetables",
+      "url": "https://www.johnnyseeds.com/vegetables/?prefn1=prod_feature_seed_type&prefv1=4&vegmmftrdlst",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:11.047674"
+    },
+    {
+      "index": 117,
+      "title": "Vegetables",
+      "url": "https://johnnyseeds.com/vegetables/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:12.627003"
+    },
+    {
+      "index": 118,
+      "title": "Artichoke Seeds",
+      "url": "https://www.johnnyseeds.com/vegetables/artichokes/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:14.140256"
+    },
+    {
+      "index": 119,
+      "title": "Asparagus Seeds & Crowns",
+      "url": "https://www.johnnyseeds.com/vegetables/asparagus/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:15.599641"
+    },
+    {
+      "index": 120,
+      "title": "Bean Seeds",
+      "url": "https://www.johnnyseeds.com/vegetables/beans/",
+      "source_name": "johnnyseeds.com",
+      "collected_at": "2026-04-10T10:48:17.340014"
+    }
+  ]
+}

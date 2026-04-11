@@ -1,0 +1,175 @@
+{
+  "source_type": "government_extension",
+  "created_at": "2026-04-10T11:22:20.011309",
+  "total_items": 24,
+  "items": [
+    {
+      "index": 0,
+      "title": "Secondary Menu",
+      "url": "https://ucanr.edu",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:41.223470"
+    },
+    {
+      "index": 1,
+      "title": "Pest Management & Plant Health",
+      "url": "https://ucanr.edu/topics/pest-management-plant-health",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:41.571024"
+    },
+    {
+      "index": 2,
+      "title": "Gardening",
+      "url": "https://ucanr.edu/topics/gardening",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:45.495428"
+    },
+    {
+      "index": 3,
+      "title": "Spring Garden Fair - Martial Cottle Park - San Jose",
+      "url": "https://ucanr.edu/site/uc-master-gardeners-santa-clara-county/event/spring-garden-fair-2026",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:47.263542"
+    },
+    {
+      "index": 4,
+      "title": "UC Master Gardener Program",
+      "url": "https://ucanr.edu/statewide-program/uc-master-gardener-program",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:48.739179"
+    },
+    {
+      "index": 5,
+      "title": "The New CA Front Yard - Turlock Community Garden",
+      "url": "https://ucanr.edu/site/ucce-master-gardeners-stanislaus-county/event/new-ca-front-yard-turlock-community-garden",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:51.258119"
+    },
+    {
+      "index": 6,
+      "title": "Central Sierra: Plant Sale - Edibles | El Dorado County",
+      "url": "https://ucanr.edu/site/uc-master-gardeners-el-dorado-county/event/central-sierra-plant-sale-edibles-el-dorado-county",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:53.758456"
+    },
+    {
+      "index": 7,
+      "title": "UC ANR Small Farms Network",
+      "url": "https://ucanr.edu/statewide-program/uc-anr-small-farms-network",
+      "source_name": "University of California Extension",
+      "collected_at": "2026-04-10T11:21:56.217516"
+    },
+    {
+      "index": 8,
+      "title": "Texas A&M AgriLife Extension Service",
+      "url": "https://agrilifeextension.tamu.edu",
+      "source_name": "Texas A&M AgriLife Extension",
+      "collected_at": "2026-04-10T11:21:57.995324"
+    },
+    {
+      "index": 9,
+      "title": "Texas ‘green industry’ shifts to steady, sustainable growth following COVID-era boom",
+      "url": "https://agrilifetoday.tamu.edu/2026/04/07/texas-green-industry-shifts-to-steady-sustainable-growth-following-covid-era-boom/",
+      "source_name": "Texas A&M AgriLife Extension",
+      "collected_at": "2026-04-10T11:21:59.157975"
+    },
+    {
+      "index": 10,
+      "title": "Texas A&M AgriLife",
+      "url": "https://calendar.tamu.edu/agrilife/event/380246-spring-plant-sale-abilene",
+      "source_name": "Texas A&M AgriLife Extension",
+      "collected_at": "2026-04-10T11:22:01.032827"
+    },
+    {
+      "index": 11,
+      "title": "Topics",
+      "url": "https://agrilifeextension.tamu.edu/topics/#plants-crops",
+      "source_name": "Texas A&M AgriLife Extension",
+      "collected_at": "2026-04-10T11:22:02.312432"
+    },
+    {
+      "index": 12,
+      "title": "Texas A&M AgriLife",
+      "url": "https://calendar.tamu.edu/agrilife/event/380245-online-spring-plant-sale-abilene",
+      "source_name": "Texas A&M AgriLife Extension",
+      "collected_at": "2026-04-10T11:22:03.675534"
+    },
+    {
+      "index": 13,
+      "title": "Penn State Extension | The Pennsylvania State University",
+      "url": "https://extension.psu.edu",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:05.572162"
+    },
+    {
+      "index": 14,
+      "title": "Pests and Diseases",
+      "url": "https://extension.psu.edu/forage-and-food-crops/vegetables/pests-and-diseases",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:06.880915"
+    },
+    {
+      "index": 15,
+      "title": "Business Management",
+      "url": "https://extension.psu.edu/forage-and-food-crops/fruit/business-management",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:08.134666"
+    },
+    {
+      "index": 16,
+      "title": "Sustainable Agriculture",
+      "url": "https://extension.psu.edu/forage-and-food-crops/forages/sustainable-agriculture",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:09.471291"
+    },
+    {
+      "index": 17,
+      "title": "Farm Safety",
+      "url": "https://extension.psu.edu/business-and-operations/farm-safety",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:10.800417"
+    },
+    {
+      "index": 18,
+      "title": "Landscaping for Wildlife",
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/home-gardening/landscaping-for-wildlife",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:12.132025"
+    },
+    {
+      "index": 19,
+      "title": "Sustainable Agriculture",
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/sustainable-agriculture",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:13.473220"
+    },
+    {
+      "index": 20,
+      "title": "Business Management",
+      "url": "https://extension.psu.edu/forage-and-food-crops/cover-crops/business-management",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:14.792599"
+    },
+    {
+      "index": 21,
+      "title": "Species and Varieties",
+      "url": "https://extension.psu.edu/trees-lawns-and-landscaping/aquatic-plants-and-algae/species-and-varieties",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:16.324238"
+    },
+    {
+      "index": 22,
+      "title": "Organic Production",
+      "url": "https://extension.psu.edu/forage-and-food-crops/agronomic-crops/organic-production",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:17.668850"
+    },
+    {
+      "index": 23,
+      "title": "Business Management",
+      "url": "https://extension.psu.edu/forage-and-food-crops/mushrooms/business-management",
+      "source_name": "Penn State Extension",
+      "collected_at": "2026-04-10T11:22:18.964909"
+    }
+  ]
+}
