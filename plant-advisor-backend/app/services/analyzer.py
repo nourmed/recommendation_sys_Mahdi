@@ -14,22 +14,54 @@ from io import StringIO
 # Setup Logger
 logger = logging.getLogger("plant_advisor")
 
-# Import your existing business logic
-try:
-    from app.services.environmental_analyzer import EnvironmentalAnalyzer
-    from app.services.data_collector import UltimateComprehensivePlantDataCollector, CollectionConfig
-    from app.services.language_manager import LanguageManager
-    from app.services.conditions import PlantConditionsCollector
-except ImportError as e:
-    logger.error(f"Import Error in analyzer.py: {e}")
-    print(f"Import Error in analyzer.py: {e}")
+# Heavy service modules are imported lazily inside methods to prevent
+# crashing the server at startup (data_collector.py is 196KB with heavy deps)
+EnvironmentalAnalyzer = None
+UltimateComprehensivePlantDataCollector = None
+CollectionConfig = None
+LanguageManager = None
+PlantConditionsCollector = None
+
+
+def _lazy_import_services():
+    """Import heavy service modules only when first needed."""
+    global EnvironmentalAnalyzer, UltimateComprehensivePlantDataCollector
+    global CollectionConfig, LanguageManager, PlantConditionsCollector
+
+    if EnvironmentalAnalyzer is not None:
+        return  # already imported
+
+    try:
+        from app.services.environmental_analyzer import EnvironmentalAnalyzer as _EA
+        from app.services.data_collector import (
+            UltimateComprehensivePlantDataCollector as _UCPDC,
+            CollectionConfig as _CC
+        )
+        from app.services.language_manager import LanguageManager as _LM
+        from app.services.conditions import PlantConditionsCollector as _PCC
+
+        EnvironmentalAnalyzer = _EA
+        UltimateComprehensivePlantDataCollector = _UCPDC
+        CollectionConfig = _CC
+        LanguageManager = _LM
+        PlantConditionsCollector = _PCC
+    except ImportError as e:
+        logger.error(f"Import Error loading services: {e}")
+        print(f"Import Error loading services: {e}")
 
 class PlantAnalyzerService:
     def __init__(self):
-        self.data_collector = self._initialize_data_system()
-        self.api_key = os.getenv("OPENAI_API_KEY") 
+        self._data_collector = None   # Lazy: loaded on first request
+        self.api_key = os.getenv("OPENAI_API_KEY")
         if not self.api_key:
             logger.warning("OPENAI_API_KEY not found in .env")
+
+    @property
+    def data_collector(self):
+        """Lazy-load the heavy data collector on first access."""
+        if self._data_collector is None:
+            self._data_collector = self._initialize_data_system()
+        return self._data_collector
 
     def _is_log_message(self, line: str) -> bool:
         """Filter out internal backend logs, letting LLM output pass through."""
@@ -89,11 +121,12 @@ class PlantAnalyzerService:
     def _initialize_data_system(self):
         """Initialize the vector DB connection once at startup"""
         try:
-            if 'CollectionConfig' not in globals():
+            _lazy_import_services()
+            if CollectionConfig is None:
                 return None
-                
+
             config = CollectionConfig()
-            config.base_data_dir = "data" 
+            config.base_data_dir = "data"
             collector = UltimateComprehensivePlantDataCollector(config)
             return collector
         except Exception as e:
@@ -104,6 +137,7 @@ class PlantAnalyzerService:
         """
         Main entry point called by the API (Legacy non-streaming).
         """
+        _lazy_import_services()
         if not self.api_key:
             return {"error": "OpenAI API Key missing"}
 
@@ -157,6 +191,7 @@ class PlantAnalyzerService:
         """
         Stream analysis results using the actual environmental_analyzer running in a thread.
         """
+        _lazy_import_services()
         if not self.api_key:
             yield "❌ Error: OpenAI API Key missing. Please configure your API key."
             return
@@ -173,13 +208,6 @@ class PlantAnalyzerService:
             selected_lang = raw_request_data.get("language", "en")
             lang_manager = LanguageManager()
             lang_manager.set_language(selected_lang)
-            
-            # Initialize environmental analyzer
-            analyzer = EnvironmentalAnalyzer(lang_manager, self.data_collector)
-            analyzer.openai_api_key = self.api_key
-            
-            import openai
-            openai.api_key = self.api_key
             
             # --- CRITICAL FIX: Run blocking code in a thread pool ---
             loop = asyncio.get_running_loop()
@@ -213,6 +241,14 @@ class PlantAnalyzerService:
             
             def run_blocking_analysis():
                 try:
+                    # Initialize environmental analyzer inside the thread so lazy-loading 
+                    # the heavy SentenceTransformer model doesn't block the main event loop
+                    analyzer = EnvironmentalAnalyzer(lang_manager, self.data_collector)
+                    analyzer.openai_api_key = self.api_key
+                    
+                    import openai
+                    openai.api_key = self.api_key
+                    
                     # Run the actual analysis
                     recs, stream = analyzer.analyze_conditions_with_stream(processed_conditions)
                     capture_container["recommendations"] = recs
@@ -435,5 +471,5 @@ class PlantAnalyzerService:
 
         return "\n".join(report)
 
-# Global Instance
+# Global Instance — lightweight now, heavy model loads on first request
 analyzer_service = PlantAnalyzerService()

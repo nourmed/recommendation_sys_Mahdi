@@ -19,6 +19,26 @@ from app.api.endpoints import router as api_router
 
 app = FastAPI(title="Plant Growing Advisor API")
 
+import threading
+import logging
+
+def preload_models():
+    """Preload the heavy AI models in a background thread."""
+    logger = logging.getLogger("plant_advisor")
+    logger.info("⏳ Background: Preloading BGE embedding model into RAM...")
+    try:
+        from sentence_transformers import SentenceTransformer
+        # This downloads/loads the model into RAM and keeps it cached
+        _ = SentenceTransformer("BAAI/bge-base-en-v1.5")
+        logger.info("✅ Background: BGE model preloaded successfully! First request will be instant.")
+    except Exception as e:
+        logger.error(f"❌ Failed to preload model: {e}")
+
+@app.on_event("startup")
+async def startup_event():
+    # Start the loading in a background thread so it doesn't block uvicorn startup
+    threading.Thread(target=preload_models, daemon=True).start()
+
 # Setup CORS - IMPORTANT: Allow all origins for development
 app.add_middleware(
     CORSMiddleware,

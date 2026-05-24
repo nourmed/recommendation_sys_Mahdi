@@ -1,0 +1,162 @@
+[
+  {
+    "question": "What is the current growing medium for the peppers?",
+    "ground_truth": "The current growing medium for the peppers is rockwool cubes."
+  },
+  {
+    "question": "What will be the growing medium for the peppers once they are moved to the greenhouse?",
+    "ground_truth": "Once moved to the greenhouse, the peppers will be growing in coco coir grow bag slabs."
+  },
+  {
+    "question": "What are some sources of nutrient inputs for crop and livestock production?",
+    "ground_truth": "Nutrient inputs can be chemical inorganic fertilizers, manure, green manure, compost, and minerals."
+  },
+  {
+    "question": "How can farmers manage water in regions with insufficient or variable rainfall?",
+    "ground_truth": "Farmers can use irrigation to supplement rainfall or employ a fallow year to conserve soil moisture for the following year."
+  },
+  {
+    "question": "Why is soil science considered an interesting area of study?",
+    "ground_truth": "The text suggests there is a hype around soil, indicating that soil science has intriguing aspects that make it an interesting area of study."
+  },
+  {
+    "question": "What is the current perception of soil in the context of scientific study?",
+    "ground_truth": "The text implies that there is a significant interest or 'hype' surrounding soil, suggesting it is a popular or important topic in scientific study."
+  },
+  {
+    "question": "What are the water access options for the potential garden bed sites?",
+    "ground_truth": "Site 1 and Site 2 have close proximity to the artesian well overflow with a solar sump pump. Site 3 is midway between the artesian well overflow and the pond, providing access to both sources. Site 4 is right next to the pond, offering easy access to high-nutrient water."
+  },
+  {
+    "question": "Why was water access not initially discussed when deciding where to put new garden beds?",
+    "ground_truth": "Water access was not initially discussed because it is fairly easy at all 5 sites."
+  },
+  {
+    "question": "What is the primary driver of global deforestation?",
+    "ground_truth": "Agricultural expansion remains the primary driver of global deforestation, accounting for nearly 90% of forest loss."
+  },
+  {
+    "question": "How has the agricultural workforce changed from 2000 to 2021?",
+    "ground_truth": "In 2021, agriculture employed 873 million people, or 27% of the global workforce, compared with 1,027 million or 40% in 2000."
+  },
+  {
+    "question": "What are the common hosts for black bean aphids?",
+    "ground_truth": "Common hosts for black bean aphids are fathen, thistle, and dock."
+  },
+  {
+    "question": "Which pathogen causes anthracnose in legumes?",
+    "ground_truth": "Anthracnose in legumes is caused by Colletotrichum trifolii."
+  },
+  {
+    "question": "What are the most common plant types available based on the given data?",
+    "ground_truth": "The most common plant types are Perennial (806), Shrub (169), and Bulb (147)."
+  },
+  {
+    "question": "Which sun exposure condition is most preferred by plants according to the data?",
+    "ground_truth": "Full sun is the most preferred sun exposure condition with 1165 plants favoring it."
+  },
+  {
+    "question": "What has been the trend in global sales for organic foods since 2002?",
+    "ground_truth": "Global sales for organic foods have climbed by more than 170 percent since 2002, reaching more than 63 billion in 2011."
+  },
+  {
+    "question": "How does the cost of organic products compare to conventionally produced products?",
+    "ground_truth": "Organic products typically cost 10 to 50 percent more than similar conventionally produced products, and sometimes several times the price."
+  },
+  {
+    "question": "How much can water consumption be reduced using the mentioned water management technology?",
+    "ground_truth": "Water consumption can be reduced by up to 30% using the mentioned water management technology."
+  },
+  {
+    "question": "What does AI mobile soil analysis enable farmers to do?",
+    "ground_truth": "AI mobile soil analysis enables farmers to enhance soil fertility while decreasing their ecological footprint by providing on-site, real-time evaluations of soil nutrient levels."
+  },
+  {
+    "question": "What discount code can be used for Plant Doctor Fertiliser?",
+    "ground_truth": "SSME10 for a 10% discount on products, not shipping."
+  },
+  {
+    "question": "How can I get a discount on Hoselink Garden Products?",
+    "ground_truth": "You will automatically get a 10% discount on checkout."
+  },
+  {
+    "question": "How can sheep be utilized in a permaculture system?",
+    "ground_truth": "Sheep can replace lawn mowers and eat invasive plants, contributing to sustainable land management."
+  },
+  {
+    "question": "What criticism has been made about the definition of permaculture?",
+    "ground_truth": "Permaculture has been criticized for not being clearly defined, with some viewing it as a generic term for sustainable living with shifting meanings."
+  },
+  {
+    "question": "What is the minimum recommended width for the arms of the garden box?",
+    "ground_truth": "The minimum recommended width for the arms of the garden box is 30 inches or 2-1/2 feet."
+  },
+  {
+    "question": "Why should pressure-treated lumber be avoided for a vegetable garden?",
+    "ground_truth": "Pressure-treated lumber should be avoided for a vegetable garden because it is not suitable for planters, likely due to the chemicals used in the treatment process."
+  },
+  {
+    "question": "What is the recommended pitch ratio for a metal roof to ensure good runoff?",
+    "ground_truth": "The recommended pitch ratio for a metal roof to ensure good runoff is 3/12, which is about 14 degrees."
+  },
+  {
+    "question": "Why is it important to vent a greenhouse?",
+    "ground_truth": "It is important to vent a greenhouse because sunny days, even in winter, can raise its interior temperature enough to damage plants."
+  },
+  {
+    "question": "What are the signs of a healthy Jade plant?",
+    "ground_truth": "A healthy Jade plant has vibrant green leaves that are firm and plump, free from blemishes, spots, or any signs of pest or disease."
+  },
+  {
+    "question": "What might cause red edges on the leaves of a Jade plant?",
+    "ground_truth": "Red edges on the leaves of a Jade plant can be caused by high temperature, underwatering, nutrient imbalance, or excessive sunlight."
+  },
+  {
+    "question": "What is the perception of some individuals in permaculture communities according to the text?",
+    "ground_truth": "The text suggests that some individuals in permaculture communities are perceived as egotistical and cult-like, often engaging in public humiliation over knowledge and self-appointing as 'gurus'."
+  },
+  {
+    "question": "Does the author of the text believe in the principles of permanent agriculture?",
+    "ground_truth": "Yes, the author believes in permanent agriculture but is critical of the behavior of some people involved in the community."
+  },
+  {
+    "question": "What method was used to stabilize the 12-foot tall trees after planting?",
+    "ground_truth": "Wood wedges were used to sturdy up the trees after planting."
+  },
+  {
+    "question": "How deep were the holes dug for planting the trees?",
+    "ground_truth": "The holes were dug two feet deep with posthole diggers."
+  },
+  {
+    "question": "What discount code can be used for purchasing FoodCube Wicking Beds in the USA?",
+    "ground_truth": "SELFSUFFICIENTME10OFF for a 10% discount."
+  },
+  {
+    "question": "Is there a discount available for Hoselink Garden Products?",
+    "ground_truth": "Yes, you will automatically get a 10% discount on checkout."
+  },
+  {
+    "question": "What is the role of the team that stays with the Harpy?",
+    "ground_truth": "The team that stays with the Harpy needs to pick up the buffs that come out of the Harpy."
+  },
+  {
+    "question": "What must the Ad Clear team do to unlock the path to the next door?",
+    "ground_truth": "The Ad Clear team must clear out the ads to allow the Angelic to spawn, then focus on the Angelic to unlock the small cubes, which unlocks the path to the next door."
+  },
+  {
+    "question": "Who is Matthew Gaston?",
+    "ground_truth": "Matthew Gaston is a botanist and educator."
+  },
+  {
+    "question": "What is the focus of Matthew Gaston's exploration?",
+    "ground_truth": "Matthew Gaston explores the botanically diverse and cozy world of Stardew Valley."
+  },
+  {
+    "question": "What is a potential use for rice bran oil besides cooking?",
+    "ground_truth": "Rice bran oil has potential as a biofuel."
+  },
+  {
+    "question": "Which oil is high in omega-3 and omega-6 fatty acids?",
+    "ground_truth": "Sacha inchi oil is high in omega-3 and omega-6 fatty acids."
+  }
+]

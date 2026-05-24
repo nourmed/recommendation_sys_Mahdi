@@ -199,12 +199,12 @@ class EnvironmentalAnalyzer:
         try:
             from qdrant_client import QdrantClient
             from qdrant_client.models import Filter, FieldCondition, MatchText, ScrollRequest
-            client = QdrantClient(host="185.215.167.14", port=6333, timeout=15, check_compatibility=False)
+            client = QdrantClient(host="127.0.0.1", port=6333, timeout=15, check_compatibility=False)
 
             collections = client.get_collections()
             collection_names = [c.name for c in collections.collections]
 
-            if "plant_data_collection" not in collection_names:
+            if "plant_collection" not in collection_names:
                 safe_print(f"Qdrant: collection not found")
                 return {"found": False, "data": []}
 
@@ -214,7 +214,7 @@ class EnvironmentalAnalyzer:
 
             try:
                 results = client.search(
-                    collection_name="plant_data_collection",
+                    collection_name="plant_collection",
                     query_vector=query_vector,
                     limit=5,
                     score_threshold=0.3,
@@ -238,7 +238,7 @@ class EnvironmentalAnalyzer:
             # --- Approach 2: Keyword payload filter fallback ---
             safe_print(f"Qdrant: trying keyword filter for '{plant_name}'")
             scroll_result = client.scroll(
-                collection_name="plant_data_collection",
+                collection_name="plant_collection",
                 scroll_filter=Filter(
                     must=[
                         FieldCondition(
@@ -272,35 +272,19 @@ class EnvironmentalAnalyzer:
         return {"found": False, "data": []}
 
     def _generate_real_embedding(self, text: str) -> List[float]:
-        """Generate a real semantic embedding - uses OpenAI then sentence-transformers then random fallback."""
-        # 1. Try sentence-transformers from data_collector
+        """Generate a 768-dim embedding using BGE to match the rebuilt Qdrant collection."""
+        # Always use BAAI/bge-base-en-v1.5 (768-dim) — must match the rebuild_qdrant.py model
         try:
-            if hasattr(self, 'data_collector') and self.data_collector and hasattr(self.data_collector, 'data_vectorizer'):
-                model = self.data_collector.data_vectorizer.embeddings_model
-                if model is not None:
-                    embedding = model.encode(text)
-                    return embedding.tolist()
-        except Exception:
-            pass
+            from sentence_transformers import SentenceTransformer
+            model = SentenceTransformer("BAAI/bge-base-en-v1.5")
+            embedding = model.encode(text, normalize_embeddings=True)
+            return embedding.tolist()
+        except Exception as e:
+            safe_print(f"BGE embedding error: {e}")
 
-        # 2. Try OpenAI text-embedding-3-small (1536 dims)
-        try:
-            from openai import OpenAI
-            import os
-            api_key = os.getenv("OPENAI_API_KEY", getattr(self, 'openai_api_key', None))
-            if api_key:
-                client = OpenAI(api_key=api_key, timeout=15.0)
-                response = client.embeddings.create(
-                    model="text-embedding-3-small",
-                    input=text
-                )
-                return response.data[0].embedding
-        except Exception:
-            pass
-
-        # 3. Last resort: random (will not match Qdrant data, but won't crash)
+        # Fallback: correct dimension zero vector (won't match but won't crash Qdrant)
         import numpy as np
-        return np.random.rand(384).astype(np.float32).tolist()
+        return np.zeros(768, dtype=np.float32).tolist()
 
     def _translate_plant_name_to_english(self, plant_name: str) -> str:
         """
@@ -748,11 +732,11 @@ All text must be in {current_language}. Provide accurate, specific information."
                 from qdrant_client.models import PointStruct
                 import uuid
                 
-                client = QdrantClient(host="185.215.167.14", port=6333, check_compatibility=False)
+                client = QdrantClient(host="127.0.0.1", port=6333, check_compatibility=False)
                 collections = client.get_collections()
                 collection_names = [c.name for c in collections.collections]
                 
-                if "plant_data_collection" in collection_names:
+                if "plant_collection" in collection_names:
                     point_id = str(uuid.uuid4())
                     embedding = self._generate_real_embedding(plant_name)
                     payload = {
@@ -765,7 +749,7 @@ All text must be in {current_language}. Provide accurate, specific information."
                         "date_added": datetime.now().isoformat()
                     }
                     client.upsert(
-                        collection_name="plant_data_collection",
+                        collection_name="plant_collection",
                         points=[PointStruct(id=point_id, vector=embedding, payload=payload)]
                     )
                     stored_count += 1

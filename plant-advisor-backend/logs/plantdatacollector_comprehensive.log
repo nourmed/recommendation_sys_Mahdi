@@ -3327,3 +3327,103 @@
 2026-05-02 17:21:54,658 - INFO - [REDDIT] Reddit API connection established
 2026-05-02 17:22:00,115 - INFO - [PHASE2] Loaded semantic model for filtering: all-mpnet-base-v2
 2026-05-02 17:22:33,245 - ERROR - [QDRANT] Qdrant connection test failed: [WinError 10060] Une tentative de connexion a échoué car le parti connecté n’a pas répondu convenablement au-delà d’une certaine durée ou une connexion établie a échoué car l’hôte de connexion n’a pas répondu
+2026-05-10 14:14:00,709 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-10 14:14:00,712 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-10 14:14:00,712 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-10 14:14:00,714 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-10 14:14:00,714 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-10 14:14:00,714 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-10 14:14:01,382 - INFO - [REDDIT] Reddit API connection established
+2026-05-10 14:14:06,273 - INFO - [PHASE2] Loaded semantic model for filtering: all-mpnet-base-v2
+2026-05-10 14:14:12,301 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-10 14:14:12,301 - INFO - [QDRANT] Existing collections: 1
+2026-05-10 14:23:50,479 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-10 14:23:50,479 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-10 14:23:50,480 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-10 14:23:50,480 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-10 14:23:50,480 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-10 14:23:50,482 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-10 14:23:50,483 - INFO - [REDDIT] Reddit API connection established
+2026-05-10 14:23:55,578 - INFO - [PHASE2] Loaded semantic model for filtering: all-mpnet-base-v2
+2026-05-10 14:24:01,098 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-10 14:24:01,099 - INFO - [QDRANT] Existing collections: 1
+2026-05-15 10:35:06,617 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-15 10:35:06,619 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-15 10:35:06,620 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-15 10:35:06,620 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-15 10:35:06,622 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-15 10:35:06,623 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-15 10:35:06,905 - INFO - [REDDIT] Reddit API connection established
+2026-05-15 10:35:11,628 - INFO - [PHASE2] Loaded semantic model for filtering: all-mpnet-base-v2
+2026-05-15 10:35:18,086 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-15 10:35:18,086 - INFO - [QDRANT] Existing collections: 1
+2026-05-18 13:30:15,379 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-18 13:30:15,379 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-18 13:30:15,382 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-18 13:30:15,382 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-18 13:30:15,382 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-18 13:30:15,385 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-18 13:30:16,521 - INFO - [REDDIT] Reddit API connection established
+2026-05-18 13:30:20,480 - INFO - [PHASE2] Loaded semantic model for filtering: BAAI/bge-base-en-v1.5
+2026-05-18 13:30:25,771 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-18 13:30:25,772 - INFO - [QDRANT] Existing collections: 1
+2026-05-18 13:34:18,625 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-18 13:34:18,628 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-18 13:34:18,628 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-18 13:34:18,628 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-18 13:34:18,630 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-18 13:34:18,631 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-18 13:34:18,633 - INFO - [REDDIT] Reddit API connection established
+2026-05-18 13:34:22,688 - INFO - [PHASE2] Loaded semantic model for filtering: BAAI/bge-base-en-v1.5
+2026-05-18 13:34:28,830 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-18 13:34:28,831 - INFO - [QDRANT] Existing collections: 1
+2026-05-18 13:35:42,828 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-18 13:35:42,828 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-18 13:35:42,828 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-18 13:35:42,828 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-18 13:35:42,828 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-18 13:35:42,832 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-18 13:35:42,834 - INFO - [REDDIT] Reddit API connection established
+2026-05-18 13:35:46,907 - INFO - [PHASE2] Loaded semantic model for filtering: BAAI/bge-base-en-v1.5
+2026-05-18 13:35:52,631 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-18 13:35:52,631 - INFO - [QDRANT] Existing collections: 1
+2026-05-21 13:17:50,593 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-21 13:17:50,593 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-21 13:17:50,593 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-21 13:17:50,599 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-21 13:17:50,599 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-21 13:17:50,599 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-21 13:17:52,009 - INFO - [REDDIT] Reddit API connection established
+2026-05-21 13:17:55,646 - INFO - [PHASE2] Loaded semantic model for filtering: BAAI/bge-base-en-v1.5
+2026-05-21 13:18:01,616 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-21 13:18:01,617 - INFO - [QDRANT] Existing collections: 1
+2026-05-23 08:54:18,302 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-23 08:54:18,302 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-23 08:54:18,302 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-23 08:54:18,302 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-23 08:54:18,302 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-23 08:54:18,306 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-23 08:54:19,377 - INFO - [REDDIT] Reddit API connection established
+2026-05-23 08:54:22,543 - INFO - [PHASE2] Loaded semantic model for filtering: BAAI/bge-base-en-v1.5
+2026-05-23 08:54:27,329 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-23 08:54:27,330 - INFO - [QDRANT] Existing collections: 1
+2026-05-23 15:35:19,689 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-23 15:35:19,691 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-23 15:35:19,694 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-23 15:35:19,696 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-23 15:35:19,697 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-23 15:35:19,706 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-23 15:35:22,205 - INFO - [REDDIT] Reddit API connection established
+2026-05-23 15:35:27,670 - INFO - [PHASE2] Loaded semantic model for filtering: BAAI/bge-base-en-v1.5
+2026-05-23 15:35:38,580 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-23 15:35:38,581 - INFO - [QDRANT] Existing collections: 1
+2026-05-24 14:33:43,972 - INFO - [INIT] Created/ensured vector_db directory: data\vector_db
+2026-05-24 14:33:43,974 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\youtube
+2026-05-24 14:33:43,974 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\websites
+2026-05-24 14:33:43,975 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\wikipedia
+2026-05-24 14:33:43,977 - INFO - [INIT] Created/ensured platform folder: data\01_raw_data\reddit
+2026-05-24 14:33:43,985 - INFO - [TRACKER] Loaded 22 collection timestamps
+2026-05-24 14:33:45,750 - INFO - [REDDIT] Reddit API connection established
+2026-05-24 14:33:51,349 - INFO - [PHASE2] Loaded semantic model for filtering: BAAI/bge-base-en-v1.5
+2026-05-24 14:33:57,913 - INFO - [QDRANT] Connected to Qdrant at 127.0.0.1:6333
+2026-05-24 14:33:57,914 - INFO - [QDRANT] Existing collections: 1

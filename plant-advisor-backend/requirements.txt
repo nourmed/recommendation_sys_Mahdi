@@ -8,4 +8,5 @@ aiofiles
 requests
 reportlab
 packaging
-pip install sentence-transformers
+youtube-search
+sentence-transformers
